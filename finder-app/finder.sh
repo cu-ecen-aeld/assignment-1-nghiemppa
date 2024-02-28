@@ -13,6 +13,7 @@ else
 fi
 
 
+
 numFile=$(ls $1 | wc -l)
 numMatch=$(grep -r $2 $1 | wc -l)
 
